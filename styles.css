@@ -1,0 +1,108 @@
+body {
+  margin: 30px auto;
+  max-width: 450px;
+  padding: 0 50px;
+  border-style: solid;
+  color: black;
+  /* background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  ); */
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-size: 450px 906px;
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 70px;
+  color: rgb(0, 0, 0);
+}
+h2 {
+  font-size: 55px;
+  color: black;
+}
+
+h3 {
+  font-size: 44px;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+
+.search-container {
+  padding: 30px;
+}
+
+.daytime {
+  text-align: left;
+  padding-left: 30px;
+  margin-top: -25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.main-info {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-bottom: 14px;
+  color: black;
+}
+
+.day-forecast {
+  text-align: center;
+  padding: 25px 5px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+#celsius-link {
+  margin: 0 auto;
+  font-size: 20px;
+}
+#fahrenheit-link {
+  font-size: 20px;
+}
+.current-weather {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.current-temp {
+  font-size: 35px;
+  text-align: center;
+}
+.weather-info {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 40px 50px;
+  color: black;
+}
+
+.week-forecast {
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+.sunset {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 40px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+button {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  background-color: rgb(58, 88, 125);
+  padding: 15px 10px;
+}
+button:hover {
+  color: rgb(5, 42, 87);
+  background-color: rgb(235, 235, 244);
+}
